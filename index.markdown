@@ -15,7 +15,7 @@ feature_row:
     url: /pets-gallery/
     alt: "Pets Gallery"
     title: "Pets Gallery"
-    excerpt: "Capture it's unique character"
+    excerpt: "Capture your pet's unique character"
   - image_path: /assets/images/index/gallery-weddings.jpeg
     url: /weddings-gallery/
     alt: "Weddings Gallery"
