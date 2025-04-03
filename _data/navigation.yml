@@ -1,0 +1,9 @@
+main:
+  - title: "Pets"
+    url: /pets-gallery/
+  - title: "Weddings"
+    url: /weddings-gallery/
+  - title: "Everything Else"
+    url: /everything-else-gallery/
+  - title: <i class="fab fa-fw fa-instagram" style="font-size:150%;" aria-hidden="true"></i>
+    url: https://instagram.com/philippahutter

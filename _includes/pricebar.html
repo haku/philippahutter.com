@@ -1,0 +1,24 @@
+<div class="pricebar {{ include.class }}">
+  <div class="box0">
+    A4 Picture<br>
+    £60<br>
+    <br>
+    A5 Picture<br>
+    £45<br>
+  </div>
+  <div class="box1">
+    I am very happy to discuss your particular needs and preferences.<br>
+    <br>
+    Please contact me via <a href="https://instagram.com/philippahutter">Instagram</a> messages.
+  </div>
+  <div class="box2">
+    Please email your cherished photographs or other content you wish me to paint.<br>
+    <br>
+    <span id="abc">obfuscated<!--no-spam-->&#64;p<!---->hili<!---->ppahu<!---->tter.com</span>
+  </div>
+  <script>
+    var a = document.getElementById("abc");
+    a.innerHTML = a.innerHTML.replace("obfuscated", "hello")
+    a.innerHTML = "<a href=\"mailto:" + a.innerText + "\">" + a.innerText + "</a>";
+  </script>
+</div>

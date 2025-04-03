@@ -1,0 +1,49 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+// position banner background image.
+.page__hero--overlay {
+  background-position: top right 15% !important;
+}
+
+// no underlines when hoving over gallery cards on index.
+.feature__wrapper {
+  a,
+  a:hover {
+    text-decoration: none !important;
+  }
+}
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// https://github.com/mmistakes/minimal-mistakes/issues/1322#issuecomment-571208318
+.wide2 {
+  .page {
+    float: left;
+    width: 100%;
+    @include breakpoint($large) {
+      padding-left: 0;
+    }
+
+    @include breakpoint($x-large) {
+      padding-left: 0;
+    }
+  }
+
+  .page__related {
+    @include breakpoint($large) {
+      padding-left: 0;
+    }
+
+    @include breakpoint($x-large) {
+      padding-left: 0;
+    }
+  }
+}
+
+@import "pricebar";

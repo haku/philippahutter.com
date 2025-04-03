@@ -1,0 +1,29 @@
+.pricebar > div,
+.pricebar a {
+  color: #eee;
+}
+.pricebar {
+  display: flex;
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .pricebar {
+    flex-direction: column;
+  }
+}
+.pricebar > div {
+  flex-basis: 0;
+  flex-grow: 1;
+  padding: 2em;
+}
+.pricebar > .box0 {
+  background-color: #444;
+}
+.pricebar > .box1 {
+  background-color: #0073A0;
+  text-align: left;
+}
+.pricebar > .box2 {
+  background-color: #005475;
+  text-align: left;
+}
